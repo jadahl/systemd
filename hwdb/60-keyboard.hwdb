@@ -52,6 +52,10 @@
 # Examples of such devices: the Yubikey or other key-code generating
 # devices.
 #
+# A device with a certain keyboard model may specify that as:
+#   XKB_FIXED_MODEL="chromebook"
+# Examples of such devices: various Chromebooks.
+#
 # To update this file, create a new file
 #   /etc/udev/hwdb.d/70-keyboard.hwdb
 # and add your rules there. To load the new rules execute (as root):
